@@ -1,14 +1,16 @@
 # Peer-graded-Assignment-Getting-and-Cleaning-Data-Course-Project
 Programming Assignment for Getting and Cleaning Data Course
 
-Creation of 2 datasets:
+The folder contains Code book, the R script run_analysis.R and the final data after step 5 "finaldata2"
+
+With the script I created 2 datasets:
 
 finaldata: tidy data set with measurements on mean and standard deviation, subject identifier (1-30) and activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 finaldata2: second, independent tidy data set with the average of each variable (mean and standard deviation) for each activity and each subject
 
 
-Script:
+Script Descriptions:
 (1) Downloading and Unzipping of File
 (2) Reading of Training and Test Data Sets (-> train, test)
 (3) Reading of Activity Labels  (activity labels) -> Rename of columns  & Cleaning
