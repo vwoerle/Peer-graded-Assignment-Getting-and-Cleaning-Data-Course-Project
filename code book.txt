@@ -13,7 +13,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 
 
-Variables:
+Variables after Cleaning:
 1) subject: identifier 1 to 30
 2) activity: activity of subjects (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 3) 86 variables: mean and standard deviation of measurements
