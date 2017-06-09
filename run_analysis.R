@@ -64,3 +64,6 @@ grouped <- group_by(activitytraintest_subset,subject, activity)
 groupedmean <- summarise_each(grouped, funs(mean))
 
 finaldata2 <- groupedmean
+
+# write into file
+write.table(finaldata2,"finaldata.txt", row.names=FALSE)
